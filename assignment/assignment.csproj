@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CE3B5239-90A1-4794-AAC3-B4639768115C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>assignment</RootNamespace>
+    <AssemblyName>assignment</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="about.Designer.cs">
+      <DependentUpon>about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="block.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="block.Designer.cs">
+      <DependentUpon>block.cs</DependentUpon>
+    </Compile>
+    <Compile Include="booleans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="booleans.Designer.cs">
+      <DependentUpon>booleans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="content1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="content1.Designer.cs">
+      <DependentUpon>content1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="finish1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finish1.Designer.cs">
+      <DependentUpon>finish1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="finish2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finish2.Designer.cs">
+      <DependentUpon>finish2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="finish3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finish3.Designer.cs">
+      <DependentUpon>finish3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="finishgrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finishgrid.Designer.cs">
+      <DependentUpon>finishgrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grid.Designer.cs">
+      <DependentUpon>grid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gridtest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gridtest.Designer.cs">
+      <DependentUpon>gridtest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homepage.Designer.cs">
+      <DependentUpon>homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="I.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="I.Designer.cs">
+      <DependentUpon>I.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ifelse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ifelse.Designer.cs">
+      <DependentUpon>ifelse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="II.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="II.Designer.cs">
+      <DependentUpon>II.cs</DependentUpon>
+    </Compile>
+    <Compile Include="III.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="III.Designer.cs">
+      <DependentUpon>III.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Incorrect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Incorrect.Designer.cs">
+      <DependentUpon>Incorrect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ourvision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ourvision.Designer.cs">
+      <DependentUpon>ourvision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="submitcourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="submitcourse.Designer.cs">
+      <DependentUpon>submitcourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="writeread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="writeread.Designer.cs">
+      <DependentUpon>writeread.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="about.resx">
+      <DependentUpon>about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="block.resx">
+      <DependentUpon>block.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="booleans.resx">
+      <DependentUpon>booleans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="content1.resx">
+      <DependentUpon>content1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finish1.resx">
+      <DependentUpon>finish1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finish2.resx">
+      <DependentUpon>finish2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finish3.resx">
+      <DependentUpon>finish3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finishgrid.resx">
+      <DependentUpon>finishgrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grid.resx">
+      <DependentUpon>grid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gridtest.resx">
+      <DependentUpon>gridtest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homepage.resx">
+      <DependentUpon>homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="I.resx">
+      <DependentUpon>I.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ifelse.resx">
+      <DependentUpon>ifelse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="II.resx">
+      <DependentUpon>II.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="III.resx">
+      <DependentUpon>III.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Incorrect.resx">
+      <DependentUpon>Incorrect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ourvision.resx">
+      <DependentUpon>ourvision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="submitcourse.resx">
+      <DependentUpon>submitcourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="writeread.resx">
+      <DependentUpon>writeread.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2024-04-11_132951-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fb2d193eeacd7483b652d86d155112d8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fb2d193eeacd7483b652d86d155112d81.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\192.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="images\astron.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-902231130-612x612-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-902231130-612x612-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-902231130-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rich-Galaxy-Background-Ultra-HD-Detail-Blue-Purple-Colors-65087132-1-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200px-Magic_Wand_Tool_Flat_Icon_Vector.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light-switch-icon-design-isolated-vector-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
